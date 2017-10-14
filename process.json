@@ -1,0 +1,12 @@
+{
+  "apps" : [{
+    "name"        : "Thor",
+    "script"      : "dist/server.js",
+    "watch"       : false,
+    "env" : {
+       "NODE_ENV": "production",
+       "postgres_user": "ubuntu"
+    },
+    "exec_mode"  : "fork"
+  }]
+}
