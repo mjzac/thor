@@ -1,4 +1,4 @@
-# Thor -  Node Server in TypeScript
+# Thor -  Express Server in TypeScript
 
 # Pre-reqs
 - Install [Node.js](https://nodejs.org/en/)
@@ -367,6 +367,7 @@ In that file you'll find two sections:
 | compression                     | Express 4 middleware.                                                 |
 | connect-redis                   | Redis session store for Express.                                    |
 | dotenv                          | Loads environment variables from .env file.                           |
+| ejs 				      | Template engine for Express.                                          |
 | errorhandler                    | Express 4 middleware.                                                 |
 | express                         | Node.js web framework.                                                |
 | express-flash                   | Provides flash messages for Express.                                  |
@@ -377,10 +378,9 @@ In that file you'll find two sections:
 | morgan                          | Express 4 middleware.                                                 |
 | nodemailer                      | Node.js library for sending emails.                                   |
 | passport                        | Simple and elegant authentication library for node.js                 |
-| passport-facebook               | Sign-in with Facebook plugin.                                         |
 | passport-local                  | Sign-in with Username and Password plugin.                            |
-| ejs 				      | Template engine for Express.                                          |
 | request                         | Simplified HTTP request library.                                      |
+| typeorm                         | ORM for TypeScript.                                      |
 
 ## `devDependencies`
 
@@ -395,3 +395,6 @@ In that file you'll find two sections:
 | typescript                      | JavaScript compiler/type checker that boosts JavaScript productivity  |
 
 To install or update these dependencies you can use either `npm` or `yarn`.
+
+# Hackathon Starter Project
+A majority of this quick start's content was inspired or adapted from Sahat's excellent [Hackathon Starter project](https://github.com/sahat/hackathon-starter) and [TypeScript Node Starter](https://github.com/Microsoft/TypeScript-Node-Starter).
